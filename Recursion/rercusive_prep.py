@@ -63,3 +63,12 @@ def fibonacci(n):
 		return fibonacci(n-1) + fibonacci(n-2)
 
 print(fibonacci(10))  """
+
+# Power
+def power(base,exp):
+	if exp ==0 :
+		return 1
+	else:
+		return base * power(base,exp-1)
+
+print(power(2,3))
