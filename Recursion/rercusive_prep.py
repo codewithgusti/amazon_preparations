@@ -7,8 +7,7 @@ def countdown(n):
 	else:
 		countdown(n-1) # Recursive Case
 
-countdown(5) """
-
+countdown(5)  """
 # Write a recursive function that will sum all numbers from 1 to n.
 """
 def sum(n):
@@ -65,10 +64,10 @@ def fibonacci(n):
 print(fibonacci(10))  """
 
 # Power
-def power(base,exp):
+"""def power(base,exp):
 	if exp ==0 :
 		return 1
 	else:
 		return base * power(base,exp-1)
 
-print(power(2,3))
+print(power(2,3)) """
